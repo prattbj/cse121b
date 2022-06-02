@@ -1,7 +1,7 @@
 //Sends the table data to the functions
 function calculateScores() {
+    //for players 1 to 7, it will calculate and display the score
     for(var i = 1; i < 8; i++) {
-        
         document.querySelector(`#p${i}score`).value = 
         parseInt(document.querySelector(`#p${i}military`).value) +
         coinDivide(i) +
