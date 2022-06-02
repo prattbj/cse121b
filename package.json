@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pokeapi-js-wrapper": "^1.2.2",
+    "pokemon": "^2.3.3"
+  }
+}
